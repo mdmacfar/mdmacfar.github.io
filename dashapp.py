@@ -9,8 +9,7 @@ import plotly.figure_factory as ff
 import plotly.offline as pyo
 import dash
 from jupyter_dash import JupyterDash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 from dash.dependencies import Input, Output
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
